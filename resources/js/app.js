@@ -9,6 +9,10 @@ require('./fontawesome');
 
 window.Vue = require('vue');
 
+import VueIzitoast from 'vue-izitoast';
+import 'izitoast/dist/css/iziToast.min.css';
+Vue.use(VueIzitoast);
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue

@@ -82,7 +82,5 @@ class AnswersController extends Controller
                 'message' => "Your answer has been removed"
             ]);
         }
-
-        return back()->with('success', "Your answer has been removed");
     }
 }
